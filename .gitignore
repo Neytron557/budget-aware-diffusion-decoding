@@ -1,0 +1,52 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python environments, caches, and build products
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data, experiment logs, and generated model artifacts
+datasets/
+**/.hf_cache/
+*.arrow
+outputs/
+runs/
+wandb/
+checkpoints/
+*.log
+*.joblib
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+pytorch_model*.bin
+adapter_model*.bin
+optimizer.pt
+scheduler.pt
+trainer_state.json
+**/checkpoint-*/
+
+# Source archives and local working files
+*.zip
+*.patch

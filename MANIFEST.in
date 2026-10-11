@@ -1,0 +1,5 @@
+include README.md CONTRIBUTORS.md CONTRIBUTING.md .env.example
+include LICENSE ACKNOWLEDGEMENTS
+recursive-include configs *.yaml
+recursive-include docs *.md *.pdf
+recursive-include tests *.py
